@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+header {
+    background-color: #eac926;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.links{
+    display: none;
+}
+
+#logo{
+    width: 50%;
+}
+
+#barra-busqueda{
+    width: 50%;
+    display: flex;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    height: 35px;
+    justify-content: space-between;
+}
+
+#barra-busqueda input{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+
+#barra-busqueda button{
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo-busqueda{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+}
+
+p {
+    font-size: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+main {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #ebebeb;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-registro{
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 9px;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 60%;
+    border: none;
+}
+
+.type{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-usuario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.radio-usuario{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+
+.circulito{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+
+div.marcar-intereses{
+    display: flex;
+    width: 100%;
+}
+
+
+.intereses h4{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.marcar-intereses{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.check-check{
+    display: flex;
+}
+
+.boton-ingresar{
+    padding: 10px 20px; 
+    margin-left: 265px;
+    margin-right: 265px;
+    font-size: 16px; 
+    text-align: center;
+    background-color: #1259c3; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    text-align: center;
+    color:#666;
+}
+
+.burger-menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.burger-menu i {
+    background-color: #1259c3;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    color: #ebebeb;
+    padding: 10px;
+}
+
+.info h3{
+    color: black;
+}
+
+footer i {
+    padding: 10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+
+#copyright {
+    margin-top: 10px;
+}
+
+#copyright p{
+    text-align: left;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 361px) {
+    #info-producto {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .contenedor-logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-busqueda{
+        width: 70%;
+    }
+
+    #barra-busqueda{
+        height: 20px;
+        margin-top: 30px;
+    }
+
+    #compra-en-cuotas{
+        width: 30%;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    .links ul{
+        display: flex;
+        list-style: none;
+    }
+    .links ul li{
+        margin-right: 20px;
+    }
+    .links ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+@media(min-width: 1024px) {
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+#barra-busqueda{
+    margin-top: 40px;
+}
+}
